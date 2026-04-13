@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'fr5_controller = my_endoscope_control.fr5_controller:main',
         ],
     },
 )
